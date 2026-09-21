@@ -16,7 +16,7 @@ public class Tiket {
     public Tiket(Film film, Studio studio, double hargaDasar) {
         this.film = film;
         this.studio = studio;
-        setHargaDasar(hargaDasar); // Menggunakan setter untuk validasi
+        setHargaDasar(hargaDasar);
     }
 
     public Film getFilm() {
@@ -43,7 +43,7 @@ public class Tiket {
         if (hargaDasar > 0) {
             this.hargaDasar = hargaDasar;
         } else {
-            this.hargaDasar = 35000; // Nilai default jika input invalid
+            this.hargaDasar = 35000; 
         }
     }
 
