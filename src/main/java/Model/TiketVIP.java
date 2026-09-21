@@ -13,7 +13,7 @@ public class TiketVIP extends Tiket {
     private String fasilitas;
 
     public TiketVIP(Film film, Studio studio, double hargaDasar, double biayaVIP, String fasilitas) {
-        super(film, studio, hargaDasar); // Memanggil constructor milik super-class Tiket
+        super(film, studio, hargaDasar);
         this.biayaVIP = biayaVIP;
         this.fasilitas = fasilitas;
     }
