@@ -12,7 +12,7 @@ public class TiketReguler extends Tiket {
     private double biayaAdmin;
 
     public TiketReguler(Film film, Studio studio, double hargaDasar, double biayaAdmin) {
-        super(film, studio, hargaDasar); // Memanggil constructor milik super-class Tiket
+        super(film, studio, hargaDasar);
         this.biayaAdmin = biayaAdmin;
     }
 
