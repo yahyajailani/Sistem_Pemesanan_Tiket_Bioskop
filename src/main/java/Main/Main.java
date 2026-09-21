@@ -25,7 +25,6 @@ public class Main {
             System.out.println("   SISTEM PEMESANAN TIKET BIOSKOP   ");
             System.out.println("==========================================");
 
-            // Input Data Film
             System.out.print("Masukkan Judul Film     : ");
             String judul = scanner.nextLine();
             
@@ -38,13 +37,11 @@ public class Main {
 
             Film filmDipilih = new Film(judul, genre, durasi);
 
-            // Input Data Studio
             System.out.print("Masukkan Nama Studio (e.g. Studio 1) : ");
             String namaStudio = scanner.nextLine();
             
             Studio studioDipilih = new Studio(namaStudio, 50);
 
-            // Pilihan Jenis Tiket
             System.out.println("\nPilih Tipe Tiket:");
             System.out.println("1. Tiket Reguler");
             System.out.println("2. Tiket VIP");
