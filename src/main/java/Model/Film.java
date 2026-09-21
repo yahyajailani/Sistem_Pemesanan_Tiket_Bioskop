@@ -11,7 +11,7 @@ package Model;
 public class Film {
     private String judul;
     private String genre;
-    private int durasi; // dalam menit
+    private int durasi; 
 
     public Film(String judul, String genre, int durasi) {
         this.judul = judul;
