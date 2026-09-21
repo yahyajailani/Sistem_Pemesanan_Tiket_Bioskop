@@ -1,0 +1,6 @@
+Model\Tiket.class
+Main\Main.class
+Model\Film.class
+Model\TiketReguler.class
+Model\Studio.class
+Model\TiketVIP.class
